@@ -8,5 +8,8 @@
   },
   "peerDependencies": {
     "@pancakeswap/sdk": "^3.0.0"
+  },
+  "dependencies": {
+    "@pancakeswap/sdk": "^3.1.1"
   }
 }

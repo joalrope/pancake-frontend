@@ -3458,6 +3458,36 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@pancakeswap/sdk@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@pancakeswap/sdk/-/sdk-3.1.1.tgz#6eb533b743cb7fd370cb637624276ca30d85bf21"
+  integrity sha512-QTcvJ4vHRK14crQEtOEZxSFT45Y5+sFWKS9hI8P3RrqQh1OcV5vcvHesee5JjUbWuUojR0uD7jiDW3jrsbPswA==
+  dependencies:
+    "@pancakeswap/swap-sdk-core" "*"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@pancakeswap/swap-sdk-core@*":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@pancakeswap/swap-sdk-core/-/swap-sdk-core-0.0.1.tgz#092a4935a2434374f0c1bbab1f0396bf633f5c26"
+  integrity sha512-nBs+5LDtOqIsIDaJ9yoYp9phtIt6jhjAlBbPB0IN2cA+o6IpTtn+psnkHR86VtXYizSw2R9iMyGDFyZf1Z6dJg==
+  dependencies:
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@pancakeswap/wagmi@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@pancakeswap/wagmi/-/wagmi-0.0.5.tgz#1aa5d3965809583f345433d951ade94f1da9f86f"
+  integrity sha512-ltbQzfzF530Q7mMUkz1llJ45j1mIcH1fZkQ2OJdyjD0HRdh3nHLfmMJoj/e5DC4LeqF1L54NGDomAauy+9/YvA==
+
 "@pedrouid/environment@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@pedrouid/environment/-/environment-1.0.1.tgz#858f0f8a057340e0b250398b75ead77d6f4342ec"
